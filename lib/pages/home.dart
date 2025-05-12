@@ -138,7 +138,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 15),
-            Container(
+            SizedBox(
               height: 240,
               child: ListView.separated(
                 itemCount: diets.length,
@@ -228,7 +228,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 15),
-            Container(
+            SizedBox(
               height: 120,
               child: ListView.separated(
                 itemCount: categories.length,
@@ -309,7 +309,7 @@ class HomePage extends StatelessWidget {
                   'assets/icons/search.svg',
                 ),
               ),
-              suffixIcon: Container(
+              suffixIcon: SizedBox(
                 width: 100,
                 child: IntrinsicHeight(
                   child: Row(
